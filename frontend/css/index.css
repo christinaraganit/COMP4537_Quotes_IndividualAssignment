@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap%27");
+
+* {
+  background-color: #f1faee;
+}
+
+@font-face {
+  font-family: Lychee;
+  src: url("../../../../res/Fresh Lychee.otf");
+}
+
+body {
+  text-align: center;
+}
+
+#container {
+  position: absolute;
+  text-align: center;
+  font-family: Montserrat;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#title {
+  text-align: center;
+  font-size: 5vw;
+  color: #457b9d;
+  font-family: Lychee;
+}
+
+.line {
+  height: auto;
+  width: 50%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+button {
+  background-color: #457b9d;
+  border: none;
+  padding: 4px 8px;
+  margin-bottom: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button > a {
+  background-color: transparent;
+  font-family: Montserrat;
+  text-decoration: none;
+  color: #f1faee;
+}
+
+button > a:visited {
+  color: #f1faee;
+}
+
+button:hover,
+button > a:hover {
+  background-color: #a8dadc;
+  color: #1d3557;
+}

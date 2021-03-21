@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap%27");
+
+* {
+  background-color: #f1faee;
+}
+
+@font-face {
+  font-family: Lychee;
+  src: url("../../../..//res/Fresh Lychee.otf");
+}
+
+body {
+  text-align: center;
+}
+
+#container {
+  position: absolute;
+  font-family: Montserrat;
+}
+
+#title {
+  text-align: center;
+  font-size: 5vw;
+  color: #457b9d;
+  font-family: Lychee;
+  margin-bottom: 16px;
+}
+
+.line {
+  height: auto;
+  width: 25%;
+  margin-top: 8px;
+}
+
+#title-container {
+  padding-top: 24px;
+  height: 20%;
+  width: auto;
+}
+
+#quotes-container {
+  text-align: left;
+  padding: 24px;
+}
+
+button {
+  background-color: #457b9d;
+  border: none;
+  padding: 4px 8px;
+  margin-bottom: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: Montserrat;
+  color: #f1faee;
+}
+
+button > a {
+  background-color: transparent;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+
+button > a:visited {
+  color: #f1faee;
+}
+
+button:hover,
+button:focus,
+button > a:hover {
+  background-color: #a8dadc;
+  color: #1d3557;
+  outline: none;
+}
+
+input[type="text"],
+textarea {
+  font-family: Montserrat;
+  padding: 16px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:hover,
+textarea:hover {
+  border: 1px solid #457b9d;
+}
+
+input:focus,
+textarea:focus {
+  outline: #1d3557;
+}
+
+input[type="radio"] {
+  border: 0px;
+  height: 2.5em;
+  margin-right: 8px;
+}
+
+#buttons-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.quote {
+  height: 100%;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
